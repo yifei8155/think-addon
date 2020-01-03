@@ -1,0 +1,33 @@
+{
+    "name": "think-addon/addons",
+    "description": "addons package for think-addon",
+    "homepage": "https://yifei8155.github.io/think-addon/addons",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "version": "0.0.0",
+    "authors": [
+        {
+            "name": "yifei8155",
+            "email": "yifei_8155@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yifei8155/think-addon/issues"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    },
+    "extra": {
+        "think-config": {
+            "addons": "src/config.php"
+        }
+    }
+}
