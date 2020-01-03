@@ -1,7 +1,7 @@
 {
     "name": "think-addon/addons",
     "description": "addons package for think-addon",
-    "homepage": "https://yifei8155.github.io/think-addon/addons",
+    "homepage": "https://yifei8155.github.io/think-addon/",
     "license": "Apache-2.0",
     "minimum-stability": "dev",
     "version": "0.0.0",
